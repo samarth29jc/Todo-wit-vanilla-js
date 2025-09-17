@@ -167,6 +167,7 @@ function getTodos() {
     todoDiv.appendChild(completedButton);
 
     const editButton = document.createElement("button");
+    
     editButton.innerHTML = `✎`;
     editButton.classList.add("edit-btn");
     todoDiv.appendChild(editButton);
